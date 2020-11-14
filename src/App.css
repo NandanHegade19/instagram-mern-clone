@@ -1,0 +1,130 @@
+.app {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.app__header {
+  object-fit: contain; /*Logo fix size*/
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app__insta-logo{
+  object-fit: contain;
+}
+
+.app__insta-logo-header{
+  flex: 0.65;
+  object-fit: contain;
+}
+.app__header__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  background-color: white;
+  max-width: 500px;
+  border: 1px solid lightgrey;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post__post-image{
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post__caption {
+  font-weight: normal;
+  padding: 10px;
+}
+
+.post__header{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.app__posts{
+  padding: 20px;
+}
+
+.app__userProfile{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.post__avatar{
+  margin-right: 20px;
+}
+
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-top: 1px soild lightgrey;
+  align-items: center;
+}
+
+.imageUpload__progress{
+  width: 100%;
+}
+
+.imageUpload__button{
+  width: 40%;
+}
+
+.post__commentBox{
+  display: flex;
+  margin-top: 10px;
+}
+.post__comment-button{
+  flex: 0;
+  border: none;
+  color: #6082a3;
+  background-color: transparent;
+  border-top: 1px solid lightgray;
+}
+.post__comment-input{
+  flex: 1; /*majority space*/
+  border: none;
+  padding: 5px;
+  border-top: 1px solid lightgray;
+}
+.post_actions{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.post__comments{
+  padding: 10px;
+}
+
+.footer {
+  color: gray;
+  font-size: small;
+  margin: 20px;
+}
